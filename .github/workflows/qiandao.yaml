@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
   push:
   schedule:
-    - cron: '0 0 0,13 * * *'
+    - cron: '0 0,16 * * *'
 
 jobs:
   curl-discuz:
